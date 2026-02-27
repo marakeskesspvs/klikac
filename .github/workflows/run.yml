@@ -1,0 +1,126 @@
+name: run
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+jobs:
+  j1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j5:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j6:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j7:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j9:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j10:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j11:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j12:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j13:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j14:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j15:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j16:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j17:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j18:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j19:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
+  j20:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install requests
+      - run: python main.py
